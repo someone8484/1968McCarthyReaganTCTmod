@@ -1,10 +1,35 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
 campaignTrail_temp.election_json = [
     {
         "model": "campaign_trail.election",
         "pk": 4,
         "fields": {
             "year": 1968,
-            "summary": "<p>The year is 1968 and America is in chaos. From the unpopular Vietnam War under President Johnson to the unrest at home, the nation needs a change.</p> <ul><li>Ronald Reagan, the candidate of the right, has surprisingly won the Republican nomination, running as as a law-and-order candidate with conservative views like Goldwater in 64' along with a hawkish tone on Vietnam.</li><li>Meanwhile, Eugene McCarthy, the Progressive, Anti Vietnam war candidate who has shockingly defeated President Johnson at the DNC, must prove that Progressiveness is needed in a time of great social and racial agitation.</li> <li>Lastly, Independent Candidate Pete McCloskey runs as a 3rd choice for Moderates and Republicans disappointed with Reagan.</ul>",
+            "summary": "The year is 1968 and America is in chaos. From the unpopular Vietnam War under President Johnson to the unrest at home, the nation needs a change.</p> <ul><li>Ronald Reagan, the candidate of the right, has surprisingly won the Republican nomination, running as as a law-and-order candidate with conservative views like Goldwater in 64' along with a hawkish tone on Vietnam.</li><li>Meanwhile, Eugene McCarthy, the Progressive, Anti Vietnam war candidate who has shockingly defeated President Johnson at the DNC, must prove that Progressiveness is needed in a time of great social and racial agitation.</li> <li>Lastly, Independent Candidate Pete McCloskey runs as a 3rd choice for Moderates and Republicans disappointed with Reagan.</ul>",
             "image_url": "https://cdn.britannica.com/53/91753-050-97BEAF0B/Protesters-Vietnam-War-New-York-City-April-27-1968.jpg",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://media.cnn.com/api/v1/images/stellar/prod/230209154517-lyndon-b-johnson-nixon-split.jpg?c=16x9&q=h_720,w_1280,c_fill",
@@ -155,6 +180,52 @@ campaignTrail_temp.candidate_json = [
             "candidate_score": 0,
             "running_mate": true
         }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 59,
+        "fields": {
+            "first_name": "Russell",
+            "last_name": "Long",
+            "election": 4,
+            "party": "Democrat",
+            "state": "Louisiana",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.oldest.org/wp-content/uploads/2021/12/Russell-Long.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Russell Long is a current moderate senator from Louisiana. As part of the Long political family, King supports Liberal economic programs while being moderate in the issue of civil rights.<p><p>If chosen as a running mate, Long could help McCarthy win back the South. However picking Long would also disappoint some people on the left.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 60,
+        "fields": {
+            "first_name": "George",
+            "last_name": "McGovern",
+            "election": 4,
+            "party": "Democrat",
+            "state": "South Dakota",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/GeorgeStanleyMcGovern.jpg/227px-GeorgeStanleyMcGovern.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>George McGovern is a progressive, anti-war senator from the plains state of South Dakota who made a brief run for the Democratic Nomination this year.<p><p>If McGovern is chosen as McCarthy's running mate, he will please his base. However, McGovern will do nothing to please moderates or the Democratic Establishment.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
     }
 ]
 
@@ -182,35 +253,26 @@ campaignTrail_temp.running_mate_json = [
             "candidate": 23,
             "running_mate": 55
         }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 167707,
+        "fields": {
+            "candidate": 24,
+            "running_mate": 59
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 96720,
+        "fields": {
+            "candidate": 24,
+            "running_mate": 60
+        }
     }
 ]
 
 campaignTrail_temp.credits = "Someone also known as Nintendogamer8484 using the Jet Code 1 and 2 mod tools (Also based on Dan Bryan 1968)."
-
-campaignTrail_temp.global_parameter_json = [
-    {
-        "model": "campaign_trail.global_parameter",
-        "pk": 1,
-        "fields": {
-            "vote_variable": 1.125,
-            "max_swing": 0.12,
-            "start_point": 0.94,
-            "candidate_issue_weight": 10,
-            "running_mate_issue_weight": 3,
-            "issue_stance_1_max": -0.71,
-            "issue_stance_2_max": -0.3,
-            "issue_stance_3_max": -0.125,
-            "issue_stance_4_max": 0.125,
-            "issue_stance_5_max": 0.3,
-            "issue_stance_6_max": 0.71,
-            "global_variance": 0.01,
-            "state_variance": 0.005,
-            "question_count": 25,
-            "default_map_color_hex": "#C9C9C9",
-            "no_state_map_color_hex": "#999999"
-        }
-    }
-]
 
 campaignTrail_temp.opponents_default_json = [
     {
