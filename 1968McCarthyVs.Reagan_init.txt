@@ -272,7 +272,7 @@ campaignTrail_temp.running_mate_json = [
     }
 ]
 
-campaignTrail_temp.credits = "Someone also known as Nintendogamer8484 using the Jet Code 1 and 2 mod tools Also with help from FitAd5739 (based on Dan Bryan 1968)"
+campaignTrail_temp.credits = "Someone also known as Nintendogamer8484 using the Jet Code 1 and 2 mod tools Also with help from FitAd5739 With the banner made by electoraluk (based on Dan Bryan 1968)"
 
 campaignTrail_temp.opponents_default_json = [
     {
@@ -310,7 +310,7 @@ jet_data = {
     "windowColor": "#008e00",
     "containerColor": "#ff2600",
     "innerWindowColor": "#935100",
-    "bannerImageUrl": "https://assets.editorial.aetnd.com/uploads/2009/10/vietnam-war-gettyimages-615208290.jpg",
+    "bannerImageUrl": "https://i.imgur.com/Y1btgQL.png",
     "backgroundImageUrl": "https://assets.sutori.com/user-uploads/image/858139a7-4613-4f48-b8f4-111e4f18f62e/5ab93e1188886.image.jpeg",
     "endingTextColor": "#000000",
     "customQuote": "\"An efficient bureaucracy is the greatest threat to liberty.\" ~ Eugene McCarthy"
@@ -332,7 +332,7 @@ $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selected
 
 $(".container")[0].style.backgroundColor = "#ff2600";
 
-document.getElementById("header").src = "https://assets.editorial.aetnd.com/uploads/2009/10/vietnam-war-gettyimages-615208290.jpg";
+document.getElementById("header").src = "https://i.imgur.com/Y1btgQL.png";
 
 document.body.background = "https://assets.sutori.com/user-uploads/image/858139a7-4613-4f48-b8f4-111e4f18f62e/5ab93e1188886.image.jpeg";
 
