@@ -272,7 +272,7 @@ campaignTrail_temp.running_mate_json = [
     }
 ]
 
-campaignTrail_temp.credits = "Someone also known as Nintendogamer8484 using the Jet Code 1 and 2 mod tools (Also based on Dan Bryan 1968)."
+campaignTrail_temp.credits = "Someone also known as Nintendogamer8484 using the Jet Code 1 and 2 mod tools Also with help from FitAd5739 (based on Dan Bryan 1968)"
 
 campaignTrail_temp.opponents_default_json = [
     {
