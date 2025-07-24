@@ -80,7 +80,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#011892",
             "secondary_color_hex": "#90C0FF",
             "is_active": 1,
-            "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/1964_Portrait_Eugene_McCarthy_%284x5_cropped%29.jpg",
+            "image_url": "https://cdn.discordapp.com/attachments/1398043793973842100/1398044377326162052/gettyimages-2077810007-612x612.jpg?ex=6883edc9&is=68829c49&hm=03c1f65a7588b38ddd5669d54bed08ef9086dac9214f2d28221552ade9fbfc45&",
             "electoral_victory_message": "<h3>Congratulations! You have won the 1968 election!</h3><p>It looked like a hopeless case as you accepted the nomination, but you have run an outstanding campaign in the interval.</p><p>Now you must press forward with your efforts to defend the Great Society and to end the war in Vietnam. Failure in the latter case could be devastating when you seek reelection in 1972. After all, just look at what happened to the once-lustrous reputation of Lyndon Johnson over the past four years...</p>",
             "electoral_loss_message": "<h3>Sorry, you have lost the 1968 election.</h3><p>You may have performed admirably under trying circumstances, but it was always a tough sell for you after the chaos at the Democratic Convention in Chicago.</p><p>Your only consolation is that Nixon himself is a former loser. Even so, this is a horrednous turn of events for Democrats after the landslide of 1964. The best you can do now is to plot a comeback to the Senate, or as a candidate for President in 1972.</p>",
             "no_electoral_majority_message": "<h3>Wow! No candidate achieved a majority in the electoral college.</h3><p>Fortunately for you the Democrats have won a majority of the nation's Congressional delegations. Unfortunately, you also have to deal with George Wallace. He will not allow the Southern states to support any candidate who advocates desegregation.</p><p>Your best chance, sadly, is to try to broker a deal with Nixon or with other moderate Republicans.</p><p>You are the likely winner, but who knows where this all ends?</p>",
@@ -149,7 +149,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#0000FF",
             "secondary_color_hex": "#90C0FF",
             "is_active": 0,
-            "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Terry_Sanford_1961.jpg",
+            "image_url": "https://cdn.discordapp.com/attachments/1398043793973842100/1398044377556713592/gettyimages-517431480-612x612.jpg?ex=6883edca&is=68829c4a&hm=f13e52f9e744d643ab6b04683bc06648c144fcfef15a67ab0fab1cd3c1dcfbf8&",
             "electoral_victory_message": "n/a",
             "electoral_loss_message": "n/a",
             "no_electoral_majority_message": "n/a",
@@ -272,7 +272,7 @@ campaignTrail_temp.running_mate_json = [
     }
 ]
 
-campaignTrail_temp.credits = "Someone also known as Nintendogamer8484 using the Jet Code 1 and 2 mod tools Also with help from FitAd5739 With the banner made by electoraluk (based on Dan Bryan 1968)"
+campaignTrail_temp.credits = "Someone also known as Nintendogamer8484 using the Jet Code 1 and 2 mod tools Also with help from FitAd5739 and RDS With the banner made by electoraluk (based on Dan Bryan 1968)"
 
 campaignTrail_temp.opponents_default_json = [
     {
